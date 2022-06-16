@@ -13,6 +13,6 @@ test("GET /", async () => {
   await supertest(app).get("/")
     .expect(200)
     .then((response) => {
-      expect(response.text).toBe("Hello Steve!!!!!!");
+      expect(response.text).toBe('Steve\'s test deployment');
     });
 });
