@@ -16,7 +16,7 @@ phases:
       - echo Running tests
       - docker build -t $REPOSITORY_URI:latest --target test myapp
       - echo Building the Docker image...
-      - docker build -t $REPOSITORY_URI:latest myapp
+      - docker build -t $REPOSITORY_URI:latest --target prod myapp
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
   post_build:
     commands:
