@@ -6,3 +6,4 @@ docker run -p 8080:8080 -d steveandroulakis/example-express
 changes..
 added load balancer.. edited nsg
 another test edit
+refresh to see how long it takes
