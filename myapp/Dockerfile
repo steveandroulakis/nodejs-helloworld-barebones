@@ -10,8 +10,6 @@ COPY package.json package.json
 
 RUN npm install
 
-COPY package-lock.json package-lock.json
-
 # If you are building your code for production
 # RUN npm ci --only=production
 
