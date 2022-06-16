@@ -7,3 +7,4 @@ changes..
 added load balancer.. edited nsg
 another test edit
 refresh to see how long it takes
+hmm let's see how fast now
