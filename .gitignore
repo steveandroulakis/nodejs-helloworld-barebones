@@ -96,3 +96,6 @@ public/
 
 # mac
 **/.DS_Store
+
+## local specific settings for ports etc
+**/localindex.js
